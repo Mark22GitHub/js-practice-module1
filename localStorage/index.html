@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="registration" id="js-form">
+      <div>
+        <label for="name">NAME</label>
+        <input type="text" id="name" name="name" />
+      </div>
+
+      <div>
+        <label for="login">LOGIN</label>
+        <input type="text" id="login" name="login" />
+      </div>
+
+      <div>
+        <label for="password">PASSWORD</label>
+        <input type="password" id="password" name="password" />
+      </div>
+
+      <button type="submit" id="btn">Sign Up</button>
+    </form>
+
+    <template>
+      <form class="feedback-form js-feedback-form">
+        <div class="five columns">
+          <div>
+            <label for="exampleNameInput">Your Name</label>
+            <input
+              name="userName"
+              class="u-full-width"
+              type="text"
+              placeholder="User name"
+              id="exampleNameInput"
+            />
+          </div>
+
+          <div>
+            <label for="exampleEmailInput">Your Email</label>
+            <input
+              name="userEmail"
+              class="u-full-width"
+              type="text"
+              placeholder="User email"
+              id="exampleEmailInput"
+            />
+          </div>
+
+          <div>
+            <label for="exampleAdressInput">Your Address</label>
+            <input
+              name="userAddress"
+              class="u-full-width"
+              type="text"
+              placeholder="User address"
+              id="exampleAddressInput"
+            />
+          </div>
+
+          <div>
+            <label for="exampleMessage">Message</label>
+            <textarea
+              name="message"
+              class="u-full-width"
+              placeholder="Hi Dave …"
+              id="exampleMessage"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+        </div>
+        <input class="button-primary" type="submit" value="Submit" />
+      </form>
+    </template>
+
+    <script src="../localStorage/index.js" type="module"></script>
+  </body>
+</html>
