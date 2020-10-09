@@ -1,0 +1,40 @@
+{
+  "drivers": [
+    {
+      "id": 1,
+      "name": "Levis Hamilton",
+      "team": "Mercedes AMG Petronas",
+      "points": "205"
+    },
+    {
+      "id": 2,
+      "name": "Valteri Bottas",
+      "team": "Mercedes AMG Petronas",
+      "points": "161"
+    },
+    {
+      "id": 3,
+      "name": "Max Verstappen",
+      "team": "Aston Martin Red Bull Racing",
+      "points": "128"
+    }
+  ],
+  
+  "teams": [
+    {
+      "id": 1,
+      "name": "Mercedes AMG Petronas",
+      "points": "366"
+    },
+    {
+      "id": 2,
+      "name": "Aston Martin Red Bull Racing F1",
+      "points": "192"
+    },
+    {
+      "id": 3,
+      "name": "McLaren F1 Team",
+      "points": "106"
+    }
+  ]
+}
